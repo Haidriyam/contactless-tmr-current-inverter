@@ -7,7 +7,7 @@ import numpy as np
 
 
 class RegularizedFieldInverter:
-    def __init__(self, lambda_reg: float = 1e-12):
+    def __init__(self, lambda_reg: float = 1e-15):
         self.lambda_reg = lambda_reg
 
     def reconstruct_currents(
